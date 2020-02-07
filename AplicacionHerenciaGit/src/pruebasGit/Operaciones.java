@@ -18,6 +18,10 @@ public class Operaciones {
 	public Operaciones(int operadorA, int operadorB) {
 		
 	}
-	
-
+	public int suma() {
+		return operadorA + operadorB;
+	}
+	public int resta() {
+		return operadorA - operadorB;
+	}
 }
