@@ -24,7 +24,13 @@ public class Operaciones {
 	public int resta() {
 		return operadorA - operadorB;
 	}
+//<<<<<<< HEAD
 	public int multiplicacion() {
 		return operadorA * operadorB;
+	}
+		//=======
+	public int division() {
+		return operadorA / operadorB;
+//>>>>>>> refs/heads/master
 	}
 }
